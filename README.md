@@ -23,7 +23,7 @@ git clone [https://github.com/Silent-Ish/pairwise_aligner_project.git](https://g
 cd pairwise_aligner_project
 
 2. **Instal dependecies**:
-pip install -r requirements.txt ((Alternatively: pip install numpy biopython))
+pip install -r requirements.txt (Alternatively: pip install numpy biopython)
 
 ```bash
 pip install numpy biopython
