@@ -80,27 +80,5 @@ The tool utilizes the **Needleman-Wunsch algorithm**, a dynamic programming meth
 2.  **Scoring:** Fills the grid by calculating the score for matching, mismatching, or inserting a gap based on neighbors.
 3.  **Traceback:** Starts from the bottom-right corner of the matrix and follows the highest scores back to the top-left to reconstruct the optimal path.
 
-##  Example Output
-
-Aligning Sequence A (3652 bp) and Sequence B (769 bp)...
-
---- Alignment Result ---
-SeqA: AGCAAACACATCCGTAGAAGGCAGCGCGGCCGCCGAGAACCGCAGCGCCGCTCGCCCGCCGCCCCCCACCCCGCCGCCCC
-                              |  | ||        |    |||||      ||             
-SeqB: ------------------------------------G---C-CA-------T----CGCCG-----CA------------
-
-SeqA: GCCCGGCGAATTGCGCCCCGCGCCCCTCCCCTCGCGCCCCCGAGACAAAGAGGAGAGAAAGTTTGCGCGGCCGAGCGGGG
-             | |                     |         |    |              |       || | |    |     
-SeqB: -------G-A---------------------T--------C----C-------------A------GC-G-C---C----
-
-... (Alignment continues for several blocks) ...
-
-SeqA: TTCTTGAGCAATCGCTCGGTCCGTGGACAATAAACAGTATTATCAAAGAGAA
-        |     | |           |      |       |||       |       |
-SeqB: --C-----C-A----------C-----C------CAG------C-------A
-
-Final Score: -4997.0
-------------------------
-
 ## Author 
 ismael
