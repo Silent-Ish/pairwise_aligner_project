@@ -18,11 +18,11 @@ You need Python 3 installed. This script relies on **NumPy** for matrix operatio
 
 ### Installation
 
-1. **Clone the respiratory : 
+1. **Clone the respiratory:**
 git clone [https://github.com/Silent-Ish/pairwise_aligner_project.git](https://github.com/Silent-Ish/pairwise_aligner_project.git)
 cd pairwise_aligner_project
 
-2. **Instal dependecies 
+2. **Instal dependecies**:
 pip install -r requirements.txt ((Alternatively: pip install numpy biopython))
 
 ```bash
